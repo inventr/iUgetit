@@ -1,0 +1,203 @@
+// ===============================
+// Open sans
+// ===============================
+//@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700italic,700,800,800italic')
+
+// ===============================
+// Roboto Condensed
+// ===============================
+//@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic');
+// ===============================
+// Ubuntu
+// ===============================
+//@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+// ===============================
+// Montserrat
+// ===============================
+//@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
+// ===============================
+// Pacifico
+// ===============================
+//@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+// ===============================
+// Cabin
+// ===============================
+//@import url('https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700italic,700');
+
+// ===============================
+// Exo 2
+// ===============================
+//@import url('https://fonts.googleapis.com/css?family=Exo+2:400,100,100italic,200,200italic,300italic,300,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic');
+
+// ===============================
+// Nunito & Nunito Sans
+// ===============================
+@import url('https://fonts.googleapis.com/css?family=Nunito|Nunito+Sans');
+
+// ===============================
+// Open sans
+// ===============================
+OpenSans = 'Open Sans', sans-serif
+
+// ===============================
+// unito & Nunito Sans
+// ===============================
+nunito = 'Nunito', sans-serif;
+nunitosans = 'Nunito Sans', sans-serif;
+
+// ===============================
+// Roboto Condensed
+// ===============================
+RobotoC = 'Roboto Condensed', sans-serif;
+
+// ===============================
+// Cabin
+// ===============================
+Cabin = 'Cabin', sans-serif;
+
+// ===============================
+// Montserrat
+// ===============================
+Montserrat = 'Montserrat', sans-serif
+
+// ===============================
+// Pacifico
+// ===============================
+Pacifico = 'Pacifico', cursive
+
+// ===============================
+// Exo 2
+// ===============================
+Exo2 = 'Exo 2', sans-serif
+
+// ===============================
+// Exo 2
+// ===============================
+Ubuntu = 'Ubuntu', sans-serif
+
+
+// ===============================
+// Colors
+// ===============================
+color-black = #000000
+color-ml = #31a4d4
+color-negro = #030303
+color-base = #292929
+color-footer = #212121
+color-white = #FFFFFF
+color-footer = #2c2c2c
+color-morado = #64387d
+//color-naranja = #d5673b
+color-rosa = #a81776
+color-pink = #E60B86  // rgb 230,11,134
+color-body = #D6D6D6
+color-facebook =  #3b5998
+color-twitter =  #55acee
+color-instagram =  #fd1d1d
+color-google =  #dd4b39
+color-youtube =  #cd201f
+color-linkedin =  #a81776
+
+//color-orange = #F26F0B
+
+color-blue = #19BAEB
+color-red = #FC1252
+
+
+b1pxwhite = 0.1em solid color-white
+b1pxblack = 0.1em solid color-black
+b1pxtransparent = 0.1em solid transparent
+
+// ===============================
+// Utility
+// ===============================
+html
+body	
+	background-color #FFF !important	
+	
+.montserrat
+	font-family 'Montserrat' !important
+	
+.montserrat
+	font-family 'Ubuntu', sans-serif !important
+	
+.ubuntu
+	font-family 'Ubuntu' !important
+	
+.OpenSans
+	font-family 'Open Sans', sans-serif
+		
+.page-container .page-content-wrapper .content
+	padding-top 0 !important	
+	
+.text-morado
+	color color-morado !important
+
+.no-padding-left-right
+	padding-left 0px !important
+	padding-right 0px !important
+
+bradius(n)
+	border-radius n
+	
+bg-rgba(color, grade)
+	background-color rgba(color, grade)
+	
+bg-rgbai(color, grade)
+	background-color rgba(color, grade) !important
+	
+bg-color(bgcolor)
+	background-color bgcolor
+	
+bg-pure(bgpure)
+	background bgpure
+
+bg-repeat(repat)
+	background-repeat repat
+
+bg-position(position1, position2)
+	background-position position1 position2
+
+bg-size(size)
+	background-size size
+
+bg-image(item)
+	background-image item
+	
+ttup()
+	text-transform uppercase
+
+padding(variableY variableX)
+	padding variableY variableX
+	
+margin(variableY variableX)
+	margin variableY variableX
+
+.mt-10
+	margin-top 10px
+
+.mt-20
+	margin-top 20px
+	+below(768px)
+		margin-top 0px
+		
+.mt-30
+	margin-top 30px
+	@media(min-width:320px) and (max-width:425px)
+		margin-top 5vh
+	+below(768px)
+		margin-top 15px
+		
+.mt-40
+	margin-top 40px
+	
+.mb-40
+	margin-bottom 40px
+	
+.mt-60
+	margin-top 60px !important	
+	
+rupture.scale = 0 320px 425px 768px 1024px 1800px
+rupture.scale-names = 'xs' 's' 'm' 'l' 'xl' 'hd'

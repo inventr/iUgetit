@@ -1,0 +1,30 @@
+gulp watch styles
+
+stylus -u nib -u rupture -w styles.styl
+
+instalar nib y rupture
+
+npm install nib -g
+npm install rubure -g
+
+sudo npm install -g gulp
+npm init
+npm install --save-dev gulp
+npm install --save-dev gulp-stylus
+
+script
+var gulp = require('gulp');
+var stylus = require('gulp-stylus');
+
+gulp.task('styles', function() {
+	// body...
+	gulp.src('styles.styl')
+		.pipe(stylus())
+		.pipe(gulp.dest('./'));
+});
+
+gulp.task('watch:styles', function(){
+	gulp.watch('**/*.styl', ['styles']);
+});
+
+/* end script */

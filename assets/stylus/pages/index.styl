@@ -1,0 +1,345 @@
+color-azul = #0099c2
+color-amarillo = #e8bb2d
+color-gris1 = #5d5d5d
+color-naranja = #feb43a
+
+.minh-40
+	display block
+	min-height 40vh !important
+	
+.minh-30
+	display block
+	min-height 30vh !important
+	
+.minh-35
+	display block
+	min-height 35vh !important
+
+.minh-20
+	display block
+	min-height 20vh !important
+
+.block
+	display block !important
+	
+.p-l-r-2
+	padding 0px 2px !important
+	
+.fz-23
+	font-size 23px !important
+	
+.bold
+	font-weight bold !important
+
+.semi-bold 
+	font-weight 600 !important
+	
+.light 
+	font-weight 100 !important
+	
+.no-padding
+	padding 0px 0px !important
+
+.mt-10
+	margin-top 10px
+
+nav
+	min-height 80px
+	line-height 80px
+	bg-color(color-azul)
+	display block
+	relative()
+	+below(768px)
+		line-height 50px
+		.brand-logo
+			margin 0 auto
+			text-align center
+			img 
+				margin 0 auto
+		
+	
+	.nav-top
+		text-align right
+		+below(768px)					
+			text-align center
+		
+		ul 
+			list-style none
+			margin 0px 0px
+			padding 0px 0px
+			li 
+				display inline-block
+				a 
+					margin 0px 10px
+					font-size 16px
+					vertical-align middle
+				.btn-link
+					padding 6px 12px
+					color color-white
+					&:hover
+						text-decoration none
+						
+				.btn-login
+					bg-color(color-amarillo)
+					color color-white
+					bradius(20px)
+					&:hover
+						bg-color(color-white)
+						color color-black
+						
+header 
+	relative()
+	padding 4em 0em
+	display block
+	+below(768px)
+		padding 2em 0em
+	h1 
+		line-height 1.5
+		margin-top 15px
+		color color-gris1
+		font-weight 400
+		+below(768px)
+			text-align center
+	h2, h3 
+		font-size 16px
+		line-height 1.5
+		color color-gris1
+		
+	figure 
+		margin 0 auto
+		text-align center
+		vertical-align middle
+		img 
+			max-width 100%
+			height auto
+			display block
+			margin 0 auto
+			vertical-align middle
+			
+	.stores
+		height 15vh
+		display table-cell
+		margin 0 auto
+		text-align center
+		vertical-align middle
+		img 
+			max-width 100%
+			height auto
+			display block
+			margin 0 auto
+			vertical-align middle
+			
+	h4 
+		color color-gris1
+		font-size 36px
+		font-weight 400
+		
+	.search
+		margin-top 3em
+		
+	.form-search
+		.form-control 
+			border-top none
+			border-left none
+			border-right none
+			box-shadow none
+			bradius(0px)
+			&:focus 
+				box-shadow 0px 0px 0px transparent !important
+				border-bottom 1px solid color-azul
+				border-top none
+				border-left none
+				border-right none		
+		.input-group-btn
+			.btn
+				border-radius 0px
+				
+			.btn-primary
+				bg-color(color-azul)
+				
+.profesionales
+	relative()
+	display block
+	bg-color(color-gris1)
+	padding-top 3em
+	padding-bottom 2em
+	+below(768px)
+		padding 2em 0em
+		
+	figure 
+		width 100%
+		height 205px
+		margin 0 auto
+		text-align center
+		bg-rgba(color-black, 30%)
+		relative()
+		figcaption
+			absolute bottom 4% left 0% right 0%
+			text-align center
+			color color-white 
+			font-size 16px
+			font-weight 600
+		img 
+			max-width 100%
+			height auto
+			display block
+			margin 0 auto
+			
+	.paddinIn
+		padding 5px 15px
+		
+.registro
+	min-height 600px
+	bg-image(url(../images/bg-dual.jpg))
+	bg-repeat(no-repeat)
+	bg-position(bottom, center)
+	bg-size(cover)
+	relative()
+	padding-top 3em
+	padding-bottom 0em
+	+below(768px)
+		padding 2em 0em
+	h5, h6
+		color color-gris1
+		vertical-align middle
+		+below(768px)
+			text-align center
+		
+	h5 
+		font-size 24px
+		font-weight 300
+		margin-top 20px
+	h6 
+		font-size 36px
+		font-weight 300
+		text-align right
+		
+	.jumbotron
+		absolute bottom 2% left 0% right 0%
+		text-align center
+		bg-color(transparent)
+		width 60%
+		margin 0 auto
+		padding-bottom 0px
+		.btn-primary
+			margin-top 1.5em
+			bg-color(color-azul) 
+			.bold
+				font-size 22px
+				
+		p 
+			margin 0px 0px
+			
+.registro-pasos
+	padding-top 3em
+	padding-bottom 0em	
+	relative()
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+	+below(768px)
+		padding 2em 0em
+	.same-height
+		height 40vh
+	.passos 
+		relative()
+		margin-top 2em
+		padding 1em 2em
+		width 100%
+		bg-color(color-white)		
+		min-height 280px
+		box-shadow 2px 2px 4px 0px #e6d9d9
+		text-align center
+		.numero
+			color color-naranja
+			border 1px solid color-naranja
+			height 90px
+			width 90px
+			padding 1em 0em
+			vertical-align middle
+			border-radius 50%
+			text-align center
+			margin 0 auto
+		.titulo 
+			color color-naranja
+			
+	.jumbotron
+		absolute bottom 5% left 0% right 0%
+		bg-color(transparent)
+		padding-bottom 0px
+		margin-bottom 0px
+		margin-top 0px
+		padding-left 15px !important
+		padding-right 15px !important
+		p 
+			margin 0px 0px
+			font-size 16px
+		
+.contactenos
+	relative()
+	padding 1.5em 0em
+	bg-color(color-white)
+	
+	.form-contacto
+		border 4px solid color-azul
+		bradius(25px)
+		bg-color(color-white)
+		margin-top -13em
+		padding 2em 1em
+		.form-control, textarea 
+			border-top none
+			border-left none
+			border-right none
+			box-shadow none
+			resize none
+			bradius(0px)
+			&:focus 
+				box-shadow 0px 0px 0px transparent !important
+				border-bottom 1px solid color-azul
+				border-top none
+				border-left none
+				border-right none		
+		.input-group-btn
+			.btn
+				border-radius 0px
+				
+			.btn-primary
+				bg-color(color-azul)
+				
+	ul
+		list-style none
+		margin 0px 0px
+		padding 0px 0px
+	.glyphicon
+		color color-azul
+		
+footer
+	.lihgtbg
+		bg-color(color-gris1)
+		padding 2em 0em		
+	.darkbg
+		bg-color(#424242)
+		padding 1em 0em
+		p 
+			color color-white
+			margin 0px 0px
+			text-align right
+			span 
+				color color-azul
+		
+	.social
+		list-style none
+		margin-top 2em
+		padding 0px 0px
+		li 
+			display block 
+			margin 2px 0px
+			.titulo 
+				font-size 21px
+				color color-naranja
+				border-bottom 1px solid color-naranja
+				padding-bottom 9px
+			a 
+				color color-white
+				font-size 16px
+				&:hover
+					color color-azul
+					text-decoration none
