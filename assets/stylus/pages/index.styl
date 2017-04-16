@@ -171,7 +171,6 @@ header
 		height 205px
 		margin 0 auto
 		text-align center
-		bg-rgba(color-black, 30%)
 		relative()
 		figcaption
 			absolute bottom 4% left 0% right 0%
@@ -179,11 +178,18 @@ header
 			color color-white 
 			font-size 16px
 			font-weight 600
+			z-index 1030
 		img 
 			max-width 100%
 			height auto
 			display block
 			margin 0 auto
+			
+		.filter
+			absolute top 0% left 0% right 0%
+			width 100%
+			height 205px
+			z-index 1
 			
 	.paddinIn
 		padding 5px 15px
