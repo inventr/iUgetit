@@ -252,7 +252,7 @@ header .form-search .input-group-btn .btn-primary {
 .profesionales {
   position: relative;
   display: block;
-  background-color: #5d5d5d;
+  background-color: #fff;
   padding-top: 3em;
   padding-bottom: 2em;
 }
@@ -498,4 +498,118 @@ footer .social li a {
 footer .social li a:hover {
   color: #0099c2;
   text-decoration: none;
+}
+.ubicanos {
+  position: relative;
+  padding: 4em 0em;
+}
+.ubicanos h5,
+.ubicanos h6 {
+  color: #5d5d5d;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 768px) {
+  .ubicanos h5,
+  .ubicanos h6 {
+    text-align: center;
+  }
+}
+.ubicanos h5 {
+  font-size: 34px;
+  font-weight: 300;
+}
+.ubicanos h6 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 20px;
+  text-align: right;
+  color: #5d5d5d;
+}
+.ubicanos article {
+  height: 70vh;
+  display: table-cell;
+  width: 100vw;
+  vertical-align: middle;
+}
+.ubicanos form .form-control {
+  border-radius: 0px;
+  margin-top: -1px;
+}
+.ubicanos form .non-margin {
+  margin-bottom: 0px !important;
+}
+.ubicanos form h1,
+.ubicanos form h3,
+.ubicanos form p {
+  text-align: center;
+}
+.ubicanos form h1 {
+  color: #feb43a;
+  margin-bottom: 5px;
+  margin-top: 35px;
+}
+.ubicanos form h3 {
+  color: #5d5d5d;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.ubicanos form p {
+  color: #5d5d5d;
+  font-size: 16px;
+}
+.pasos2 {
+  position: relative;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+.pasos2 h1 {
+  margin-left: 5em;
+}
+.pasos2 article {
+  display: table;
+  padding-top: 0em;
+  padding-left: 4em;
+  padding-right: 0em;
+  padding-bottom: 0em;
+  margin: 1em 0em;
+}
+.pasos2 article p {
+  display: table-cell;
+  padding: 0em 2em;
+  height: 120px;
+  width: 100vw;
+  vertical-align: middle;
+}
+.pasos2 article p span {
+  color: #0099c2;
+}
+.pasos2 article .numerosss {
+  width: 120px;
+  vertical-align: middle;
+  margin: 0 auto;
+  text-align: center;
+}
+.pasos2 article .numerosss img {
+  max-width: 100%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  vertical-align: middle;
+}
+.pasos2 article .btn-primary {
+  margin-top: 1.5em;
+  background-color: #0099c2;
+}
+.pasos2 article .btn-primary .bold {
+  font-size: 22px;
+}
+.pasos2 .center {
+  text-align: center;
+  margin: 0 auto;
+}
+.pasos2 .center img {
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
